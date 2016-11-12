@@ -1,7 +1,6 @@
 $(function() {	
 	// Catch the window object
 	var $window = $(window);
-
 	// Parallax background effect
 	$('section[data-type="background"]').each(function() {
 		var $bgobj = $(this); // assessing the object
@@ -16,3 +15,8 @@ $(function() {
 		}); // end window scroll
 	});
 });
+
+
+// $(document).ready(function() {
+//       alert("document ready occurred!");
+// });
