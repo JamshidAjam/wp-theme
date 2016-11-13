@@ -43,6 +43,14 @@ button, input, .btn, a.btn {
 	background-color: #dd5638;
 	border-collapse: #d95131;
 }
+.btn-success {
+	background-color: #79b044;
+	border: none;
+}
+.btn-success:hover {
+	background: #6a9b3d;
+	border-color: #6a9b3d;
+}
 .img {
 	max-width: 100%;
 }
@@ -71,6 +79,21 @@ button, input, .btn, a.btn {
 .badge.social.instagram:hover {
 	background-color: #517fa4;
 }
+blockquote {
+	padding: 0;
+	border: none;
+	font-style: italic;
+	text-align: left;
+}
+blockquote:before {
+	/*display: none;*/
+}
+blockquote cite {
+	display: block;
+	color: #777;
+	margin: 15px 0 0 0;
+}
+
 
 
 /*======== HERO ========*/
@@ -206,6 +229,35 @@ section h3 {
 	font-size: 20px;
 	font-weight: normal;
 }
+#kudos {
+	text-align: center;
+}
+.testimonial {
+	margin-bottom: 60px;
+}
+.testimonial img {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+#signup {
+	text-align: center;
+	background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	color: #fff;
+	padding: 140px 0;
+}
+#signup h2 {
+	font-weight: normal;
+}
+#signup h2 strong {
+	border-bottom: 2px solid #dd5638;
+}
+#signup .btn {
+	font-size: 24px;
+}
+
 
 /*====== CUSTOM ICON SPRITES ======*/
 i.ci {
