@@ -225,6 +225,9 @@ section h3 {
 #who-benefits {
 	background: #fff;
 }
+#who-benefits .row {
+	margin-right: 0;
+}
 
 #course-features {
 	background: #3e4249;
